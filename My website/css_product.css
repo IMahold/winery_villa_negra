@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ :root {
+     font-size: 62.5%;
+ }
+
+ body {
+     font-family: 'Raleway', sans-serif;
+     font-size: 1.6rem;
+     background-image: url(./images/glass.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+ }
+
+ nav {
+    width: 100vw;
+    /* background-color: rgb(185, 82, 82); */
+    position: fixed;
+    top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding:3rem 4rem;
+    display:block;
+
+}
+
+nav ul li a:hover {
+    background-color:rgba(136, 136, 136, 0.7);
+    display: block;
+}
+
+.logo {
+    float: left;
+    width: 140px;
+    margin: 1rem;
+}
+
+
+
+.block {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 1200px;
+    height: 800px;
+    margin: 7.9rem auto;
+    padding: 5rem;
+    display: flex;
+}
+
+
+
+#center {
+    font-size: 3rem;
+    position: absolute;
+    left: 740px;
+    justify-content: center;
+}
+
+
+ h2 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+ figure {
+     margin:5rem auto;
+ }
+
+ .apps img {
+    width: 4rem;
+    padding: 0.5rem;
+    position: relative;
+    bottom: 5rem;
+    left: 170rem;
+}
